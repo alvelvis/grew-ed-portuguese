@@ -7,7 +7,7 @@ The repository is organized as follows:
 - `conjunto_regras_avaliacao.grs` is the file containing modified rules used to evaluate Grew for Portuguese in the annotation of EUD
   - The strategy used for the modified rules was: `strat_modificadas`
   - This file did not change since the publicaton of the conference paper: https://sol.sbc.org.br/index.php/stil/article/view/31134
-  - However, we have updated the rules to increase its accuracy afterwards, generating the `conjunto_regras_porttinari.grs`, which is also the rules used to annotate the whole Porttinari corpus. This set of rules can be found at https://github.com/alvelvis/eud-portugues
+  - However, we have updated the rules to increase its accuracy afterwards, generating the `conjunto_regras_porttinari.grs`, which is also the rules used to annotate the whole Porttinari corpus. This set of rules can be found at https://github.com/alvelvis/eud-portugues. The current version of .conllu files are annotated using the most recent rules.
 - The original rules were obtained from: https://gitlab.inria.fr/grew/udtoeud/-/blob/master/grs/iwpt_UD_to_MIX.grs
   - The strategy used for the original rules was: `ud_to_mix`
 - Files that begin with `amostra_` are the samples from Porttinari:
