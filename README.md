@@ -15,3 +15,7 @@ The repository is organized as follows:
   - `_GREWED` is the automatic EUD annotation by GREW using the original rules
   - `_GREWED-modified` is the automatic EUD annotation by GREW using the modified rules
 - `amostra_test_gold.html` and `amostra_dev_gold.html` illustrate the automatic classifications of the enhanced relations in the gold standard among the 6 types of EUD
+
+# Changelog
+
+- 2025-03-19 - a few changes have been made to the datasets and the rules to increase its accuracy
