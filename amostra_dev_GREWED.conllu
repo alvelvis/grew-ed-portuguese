@@ -553,7 +553,7 @@
 7	ser	ser	AUX	_	VerbForm=Inf	8	aux:pass	8:aux:pass|10:aux:pass	_
 8	anulado	anular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	xcomp	6:xcomp	_
 9	e	e	CCONJ	_	_	10	cc	10:cc	_
-10	reavaliado	reavaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	6:xcomp|8:conj:e	SpaceAfter=No
+10	reavaliado	reavaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	conj	6:xcomp|8:conj:e	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	6:punct	SpaceAfter=No
 
 # sent_id = FOLHA_DOC000002_SENT016
@@ -2148,10 +2148,10 @@
 # text = De cabelo laranja e roupas pouco discretas, ela fazia questão de colorir também pessoas, com sua maquiagem, e muros, com seus desenhos.
 # timestamp = 1696877111481.542
 1	De	de	ADP	_	_	2	case	2:case|5:case	_
-2	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	10	advcl	10:advcl:de	_
+2	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	9:nmod:de	_
 3	laranja	laranja	ADJ	_	Number=Sing	2	amod	2:amod	_
 4	e	e	CCONJ	_	_	5	cc	5:cc	_
-5	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	2	conj	2:conj:e|10:obl:de	_
+5	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	2	conj	2:conj:e|9:nmod:de	_
 6	pouco	pouco	ADV	_	_	7	advmod	7:advmod	_
 7	discretas	discreto	ADJ	_	Gender=Fem|Number=Plur	5	amod	5:amod	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	2:punct	_

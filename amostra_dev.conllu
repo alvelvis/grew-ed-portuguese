@@ -553,7 +553,7 @@
 7	ser	ser	AUX	_	VerbForm=Inf	8	aux:pass	_	_
 8	anulado	anular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	xcomp	_	_
 9	e	e	CCONJ	_	_	10	cc	_	_
-10	reavaliado	reavaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	_	SpaceAfter=No
+10	reavaliado	reavaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	conj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	SpaceAfter=No
 
 # sent_id = FOLHA_DOC000002_SENT016
@@ -2135,7 +2135,7 @@
 # text = De cabelo laranja e roupas pouco discretas, ela fazia questão de colorir também pessoas, com sua maquiagem, e muros, com seus desenhos.
 # timestamp = 1696877111481.542
 1	De	de	ADP	_	_	2	case	_	_
-2	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	10	advcl	_	_
+2	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	_	_
 3	laranja	laranja	ADJ	_	Number=Sing	2	amod	_	_
 4	e	e	CCONJ	_	_	5	cc	_	_
 5	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	2	conj	_	_

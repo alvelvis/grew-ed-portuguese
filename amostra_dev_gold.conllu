@@ -6,7 +6,7 @@
 2	plataforma	plataforma	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	3:nsubj|5:nsubj	_
 3	começa	começar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	a	a	ADP	_	_	5	mark	5:mark	_
-5	operar	operar	VERB	_	VerbForm=Inf	3	xcomp	3:xcomp:a	_
+5	operar	operar	VERB	_	VerbForm=Inf	3	xcomp	3:xcomp	_
 6	ainda	ainda	ADV	_	_	8	advmod	8:advmod	_
 7	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	8:det	_
 8	mês	mês	NOUN	_	Gender=Masc|Number=Sing	5	obl	5:obl	_
@@ -130,7 +130,7 @@
 28	esperar	esperar	VERB	_	VerbForm=Inf	27	xcomp	27:xcomp	_
 29	que	que	SCONJ	_	_	31	mark	31:mark	_
 30	Lula	Lula	PROPN	_	_	31	nsubj	31:nsubj	_
-31	assuma	assumir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	28:ccomp:que	_
+31	assuma	assumir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	28:ccomp	_
 32	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	33	det	33:det	_
 33	Presidência	Presidência	PROPN	_	_	31	obj	31:obj	_
 34	em	em	ADP	_	_	35	case	35:case	_
@@ -201,7 +201,7 @@
 10	Argentina	Argentina	PROPN	_	_	8	obj	8:obj|13:nsubj	_
 11	a	a	ADP	_	_	13	mark	13:mark	_
 12	se	se	PRON	_	Case=Acc|Person=3|PronType=Prs	13	obj	13:obj	_
-13	classificar	classificar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	8	xcomp	8:xcomp:a	_
+13	classificar	classificar	VERB	_	Number=Sing|Person=3|VerbForm=Inf	8	xcomp	8:xcomp	_
 14	sem	sem	ADP	_	_	16	case	16:case	_
 15	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	16:det	_
 16	repescagem	repescagem	NOUN	_	Gender=Fem|Number=Sing	13	obl	13:obl:sem	_
@@ -224,12 +224,12 @@
 9	mãe	mãe	NOUN	_	Gender=Fem|Number=Sing	7	obj	7:obj|10:nsubj	_
 10	feliz	feliz	ADJ	_	Number=Sing	7	xcomp	7:xcomp	_
 11	a	o	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	obj	12:obj|17:nsubj	_
-12	incentivou	incentivar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp:que	SpaceAfter=No
+12	incentivou	incentivar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	14:punct	_
 14	inclusive	inclusive	ADV	_	_	12	advmod	12:advmod	SpaceAfter=No
 15	,	,	PUNCT	_	_	14	punct	14:punct	_
 16	a	a	ADP	_	_	17	mark	17:mark	_
-17	abandonar	abandonar	VERB	_	VerbForm=Inf	12	xcomp	12:xcomp:a	_
+17	abandonar	abandonar	VERB	_	VerbForm=Inf	12	xcomp	12:xcomp	_
 18	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	19:det	_
 19	estudos	estudo	NOUN	_	Gender=Masc|Number=Plur	17	obj	17:obj	_
 20	para	para	ADP	_	_	22	mark	22:mark	_
@@ -279,14 +279,14 @@
 22	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	23	expl	23:expl	_
 23	comprometeu	comprometer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	conj	16:conj:e	_
 24	a	a	ADP	_	_	25	mark	25:mark	_
-25	revisar	revisar	VERB	_	VerbForm=Inf	23	xcomp	23:xcomp:a	_
+25	revisar	revisar	VERB	_	VerbForm=Inf	23	xcomp	23:xcomp	_
 26	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	28	det	28:det	_
 27	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	28	det	28:det	_
 28	termos	termo	NOUN	_	Gender=Masc|Number=Plur	25	obj	25:obj	_
 29	semelhantes	semelhante	ADJ	_	Number=Plur	28	amod	28:amod	_
 30	impostos	impor	VERB	_	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	28	acl	28:acl	_
 31	até	até	ADP	_	_	32	case	32:case	_
-32	então	então	ADV	_	_	30	advmod	30:advmod:até	SpaceAfter=No
+32	então	então	ADV	_	_	30	advmod	30:advmod	SpaceAfter=No
 33	.	.	PUNCT	_	_	16	punct	16:punct	SpaceAfter=No
 
 # sent_id = FOLHA_DOC000007_SENT022
@@ -347,7 +347,7 @@
 3	esse	esse	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	4:det	_
 4	dinheiro	dinheiro	NOUN	_	Gender=Masc|Number=Sing	6	nsubj:pass	6:nsubj:pass	_
 5	foi	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	6:aux:pass	_
-6	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	ccomp	1:ccomp:que	_
+6	usado	usar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	1	ccomp	1:ccomp	_
 7	efetivamente	efetivamente	ADV	_	_	6	advmod	6:advmod	_
 8-9	no	_	_	_	_	_	_	_	_
 8	em	em	ADP	_	_	10	case	10:case	_
@@ -383,7 +383,7 @@
 # sent_id = FOLHA_DOC000032_SENT008
 # text = O banheiro é imundo, e isso porque deixam fechado, senão usuários de drogas tomam conta.
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
-2	banheiro	banheiro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	4:nsubj|7:nsubj	_
+2	banheiro	banheiro	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	4:nsubj	_
 3	é	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop|7:cop	_
 4	imundo	imundo	ADJ	_	Gender=Masc|Number=Sing	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	7:punct	_
@@ -553,7 +553,7 @@
 7	ser	ser	AUX	_	VerbForm=Inf	8	aux:pass	8:aux:pass|10:aux:pass	_
 8	anulado	anular	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	6	xcomp	6:xcomp	_
 9	e	e	CCONJ	_	_	10	cc	10:cc	_
-10	reavaliado	reavaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	8	conj	6:xcomp|8:conj:e	SpaceAfter=No
+10	reavaliado	reavaliar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	8	conj	6:xcomp|8:conj:e	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	6:punct	SpaceAfter=No
 
 # sent_id = FOLHA_DOC000002_SENT016
@@ -565,7 +565,7 @@
 4	que	que	PRON	_	PronType=Rel	5	obj	3:ref	_
 5	trouxe	trazer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 6	para	para	ADP	_	_	7	case	7:case	_
-7	cá	cá	ADV	_	_	5	advmod	5:advmod:para	SpaceAfter=No
+7	cá	cá	ADV	_	_	5	advmod	5:advmod	SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	5:punct	_
 9	ela	ele	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj|17:nsubj	_
 10	mistura	misturar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -579,7 +579,7 @@
 18	que	que	SCONJ	_	_	21	mark	21:mark	_
 19	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	20:det	_
 20	atualização	atualização	NOUN	_	Gender=Fem|Number=Sing	21	nsubj	21:nsubj|24:nsubj	_
-21	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	17:ccomp:que	_
+21	tinha	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	ccomp	17:ccomp	_
 22	como	como	ADP	_	_	23	case	23:case	_
 23	intuito	intuito	NOUN	_	Gender=Masc|Number=Sing	21	obl	21:obl:como	_
 24	atingir	atingir	VERB	_	VerbForm=Inf	21	xcomp	21:xcomp	_
@@ -1077,7 +1077,7 @@
 9	EMTU	EMTU	PROPN	_	_	10	nsubj	10:nsubj	_
 10	disse	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 11	que	que	SCONJ	_	_	12	mark	12:mark	_
-12	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp:que	_
+12	há	haver	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	10:ccomp	_
 13	45	45	NUM	_	NumType=Card	14	nummod	14:nummod	_
 14	km	quilômetro	NOUN	_	Abbr=Yes|Gender=Masc	12	obj	12:obj	_
 15	de	de	ADP	_	_	16	case	16:case|18:case	_
@@ -1262,7 +1262,7 @@
 # text = Temos que evoluir como técnicos, como dirigentes e como formadores de opinião.
 1	Temos	ter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 2	que	que	ADP	_	_	3	mark	3:mark	_
-3	evoluir	evoluir	VERB	_	VerbForm=Inf	1	xcomp	1:xcomp:que	_
+3	evoluir	evoluir	VERB	_	VerbForm=Inf	1	xcomp	1:xcomp	_
 4	como	como	ADP	_	_	5	case	5:case	_
 5	técnicos	técnico	NOUN	_	Gender=Masc|Number=Plur	3	obl	3:obl:como	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	8:punct	_
@@ -1494,7 +1494,7 @@
 6	seu	seu	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	7:det	_
 7	motorista	motorista	NOUN	_	Number=Sing	9	nsubj	9:nsubj	_
 8	não	não	ADV	_	_	9	advmod	9:advmod	_
-9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp:que	_
+9	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	_
 10	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	11:det	_
 11	opção	opção	NOUN	_	Gender=Fem|Number=Sing	9	obj	9:obj	_
 12	de	de	ADP	_	_	13	mark	13:mark	_
@@ -1855,7 +1855,7 @@
 # timestamp = 1696877111481.542
 1	Os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	3:det	_
 2	últimos	último	ADJ	_	Gender=Masc|Number=Plur	3	amod	3:amod	_
-3	sobreviventes	sobrevivente	NOUN	_	Number=Plur	8	nsubj	8:nsubj|15:nsubj	_
+3	sobreviventes	sobrevivente	NOUN	_	Number=Plur	8	nsubj	8:nsubj	_
 4-5	do	_	_	_	_	_	_	_	_
 4	de	de	ADP	_	_	6	case	6:case	_
 5	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	6:det	_
@@ -2036,7 +2036,7 @@
 2	prefeitura	prefeitura	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	3:nsubj	_
 3	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
 4	que	que	SCONJ	_	_	5	mark	5:mark|10.1:mark	_
-5	chamará	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	3:ccomp:que	_
+5	chamará	chamar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	ccomp	3:ccomp	_
 6	mais	mais	ADV	_	_	7	advmod	7:advmod	_
 7	300	300	NUM	_	NumType=Card	5	obj	5:obj	_
 8	em	em	ADP	_	_	9	case	9:case	_
@@ -2148,10 +2148,10 @@
 # text = De cabelo laranja e roupas pouco discretas, ela fazia questão de colorir também pessoas, com sua maquiagem, e muros, com seus desenhos.
 # timestamp = 1696877111481.542
 1	De	de	ADP	_	_	2	case	2:case|5:case	_
-2	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	10	advcl	10:advcl:de	_
+2	cabelo	cabelo	NOUN	_	Gender=Masc|Number=Sing	9	nmod	9:nmod:de	_
 3	laranja	laranja	ADJ	_	Number=Sing	2	amod	2:amod	_
 4	e	e	CCONJ	_	_	5	cc	5:cc	_
-5	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	2	conj	2:conj:e|10:advcl:de	_
+5	roupas	roupa	NOUN	_	Gender=Fem|Number=Plur	2	conj	2:conj:e|9:nmod:de	_
 6	pouco	pouco	ADV	_	_	7	advmod	7:advmod	_
 7	discretas	discreto	ADJ	_	Gender=Fem|Number=Plur	5	amod	5:amod	SpaceAfter=No
 8	,	,	PUNCT	_	_	2	punct	2:punct	_
@@ -2159,7 +2159,7 @@
 10	fazia	fazer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	0:root	_
 11	questão	questão	NOUN	_	Gender=Fem|Number=Sing	10	obj	10:obj	_
 12	de	de	ADP	_	_	13	mark	13:mark|21.1:mark	_
-13	colorir	colorir	VERB	_	VerbForm=Inf	11	acl	11:acl	_
+13	colorir	colorir	VERB	_	VerbForm=Inf	11	acl	11:acl:de	_
 14	também	também	ADV	_	_	13	advmod	13:advmod	_
 15	pessoas	pessoa	NOUN	_	Gender=Fem|Number=Plur	13	obj	13:obj	SpaceAfter=No
 16	,	,	PUNCT	_	_	19	punct	19:punct	_
@@ -2181,10 +2181,10 @@
 # sent_id = FOLHA_DOC003038_SENT015
 # text = Tem que ser uma pessoa serena, mas com coragem pessoal para colocar de um lado da mesa o radical do MST e do outro o mercado financeiro.
 1	Tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
-2	que	que	ADP	_	_	5	mark	5:mark	_
+2	que	que	ADP	_	_	5	mark	5:mark|10:mark	_
 3	ser	ser	AUX	_	VerbForm=Inf	5	cop	5:cop|10:cop	_
 4	uma	um	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	5:det	_
-5	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	1	xcomp	1:xcomp:que	_
+5	pessoa	pessoa	NOUN	_	Gender=Fem|Number=Sing	1	xcomp	1:xcomp	_
 6	serena	sereno	ADJ	_	Gender=Fem|Number=Sing	5	amod	5:amod	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	10:punct	_
 8	mas	mas	CCONJ	_	_	10	cc	10:cc	_
@@ -2226,7 +2226,7 @@
 2	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	1	expl	1:expl	_
 3	que	que	SCONJ	_	_	5	mark	5:mark|15.1:mark	_
 4	ele	ele	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj|15.1:nsubj	_
-5	use	usar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp:que	_
+5	use	usar	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	1:ccomp	_
 6	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	7:det	_
 7	cadeira	cadeira	NOUN	_	Gender=Fem|Number=Sing	5	obj	5:obj	_
 8	de	de	ADP	_	_	9	case	9:case	_
@@ -2262,7 +2262,7 @@
 # text = Por aqui, tributa-se menos renda e propriedade e mais bens e serviços.
 # timestamp = 1696877111481.542
 1	Por	por	ADP	_	_	2	case	2:case	_
-2	aqui	aqui	ADV	_	_	4	advmod	4:advmod:por	SpaceAfter=No
+2	aqui	aqui	ADV	_	_	4	advmod	4:advmod	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	2:punct	_
 4-5	tributa-se	_	_	_	_	_	_	_	_
 4	tributa	tributar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
@@ -2386,14 +2386,14 @@
 3	tem	ter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp:speech	18:ccomp:speech	_
 4	que	que	ADP	_	_	6	mark	6:mark|12.1:mark	_
 5	ser	ser	AUX	_	VerbForm=Inf	6	aux:pass	6:aux:pass|12.1:aux:pass	_
-6	pensada	pensar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	3:xcomp:que	_
+6	pensada	pensar	VERB	_	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	xcomp	3:xcomp	_
 7	com	com	ADP	_	_	9	case	9:case	_
 8	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	9:det	_
 9	cabeça	cabeça	NOUN	_	Gender=Fem|Number=Sing	6	obl	6:obl:com	SpaceAfter=No
 10	,	,	PUNCT	_	_	16	punct	16:punct	_
 11	e	e	CCONJ	_	_	16	cc	12.1:cc	_
 12	não	não	ADV	_	_	16	orphan	12.1:advmod	_
-12.1	__NOFORM__	pensar	VERB	_	_	_	_	3:xcomp:que|6:conj:e	wordform=__EMPTY__
+12.1	__NOFORM__	pensar	VERB	_	_	_	_	3:xcomp|6:conj:e	wordform=__EMPTY__
 13	só	só	ADV	_	_	16	advmod	16:advmod	_
 14	com	com	ADP	_	_	16	case	16:case	_
 15	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	16:det	_
@@ -2450,16 +2450,16 @@
 3	claramente	claramente	ADV	_	_	2	advmod	2:advmod	_
 4	que	que	SCONJ	_	_	6	mark	6:mark	_
 5	não	não	ADV	_	_	6	advmod	6:advmod	_
-6	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp:que	_
+6	gosta	gostar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	_
 7	de	de	ADP	_	_	8	mark	8:mark	_
-8	seguir	seguir	VERB	_	VerbForm=Inf	6	xcomp	6:xcomp:de	_
+8	seguir	seguir	VERB	_	VerbForm=Inf	6	xcomp	6:xcomp	_
 9	regras	regra	NOUN	_	Gender=Fem|Number=Plur	8	obj	8:obj	_
 10	e	e	CCONJ	_	_	11	cc	11:cc	_
 11	diz	dizer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	2:conj:e	_
 12	que	que	SCONJ	_	_	15	mark	15:mark	_
 13	nunca	nunca	ADV	_	_	15	advmod	15:advmod	_
 14	será	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	aux:pass	15:aux:pass	_
-15	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	ccomp	11:ccomp:que	SpaceAfter=No
+15	preso	prender	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	ccomp	11:ccomp	SpaceAfter=No
 16	.	.	PUNCT	_	_	2	punct	2:punct	SpaceAfter=No
 
 # sent_id = FOLHA_DOC000057_SENT012
@@ -2490,7 +2490,7 @@
 24	dificulta	dificultar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	22:acl:relcl	_
 25	que	que	SCONJ	_	_	27	mark	27:mark	_
 26	ilegais	ilegal	ADJ	_	Number=Plur	27	nsubj	27:nsubj	_
-27	consigam	conseguir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	24:ccomp:que	_
+27	consigam	conseguir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	24:ccomp	_
 28	empregos	emprego	NOUN	_	Gender=Masc|Number=Plur	27	obj	27:obj	_
 29-30	nos	_	_	_	_	_	_	_	_
 29	em	em	ADP	_	_	31	case	31:case	_
@@ -2526,7 +2526,7 @@
 58	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	59	expl	59:expl	_
 59	recusam	recusar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	acl:relcl	44:acl:relcl	_
 60	a	a	ADP	_	_	61	mark	61:mark	_
-61	seguir	seguir	VERB	_	VerbForm=Inf	59	xcomp	59:xcomp:a	_
+61	seguir	seguir	VERB	_	VerbForm=Inf	59	xcomp	59:xcomp	_
 62	a	o	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	63:det	_
 63	política	política	NOUN	_	Gender=Fem|Number=Sing	61	obj	61:obj	_
 64	migratória	migratório	ADJ	_	Gender=Fem|Number=Sing	63	amod	63:amod	_
@@ -2648,7 +2648,7 @@
 3	com	com	ADP	_	_	6	mark	6:mark	_
 4	que	que	SCONJ	_	_	3	fixed	3:fixed	_
 5	conselheiros	conselheiro	NOUN	_	Gender=Masc|Number=Plur	6	nsubj	6:nsubj	_
-6	votassem	votar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp:com_que	_
+6	votassem	votar	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	ccomp	2:ccomp	_
 7	algo	algo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	6	obj	6:obj|11:nsubj	_
 8	que	que	PRON	_	PronType=Rel	11	nsubj	7:ref	_
 9	"	"	PUNCT	_	_	11	punct	11:punct	SpaceAfter=No
