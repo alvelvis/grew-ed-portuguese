@@ -1636,7 +1636,7 @@
 1	O	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	2:det	_
 2	namoro	namoro	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	14:nsubj	_
 3	ensaiado	ensaiar	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	2	acl	2:acl	_
-4	entre	entre	ADP	_	_	5	case	5:case|9:case	_
+4	entre	entre	ADP	_	_	5	case	5:case	_
 5	ideais	ideal	NOUN	_	Number=Plur	2	nmod	2:nmod:entre	_
 6	de	de	ADP	_	_	7	case	7:case	_
 7	feminismo	feminismo	NOUN	_	Gender=Masc|Number=Sing	5	nmod	5:nmod:de	_
@@ -2080,7 +2080,7 @@
 3	se	se	SCONJ	_	_	16	mark	16:mark	_
 4	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	5:det	_
 5	encontro	encontro	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	16:nsubj	_
-6	entre	entre	ADP	_	_	7	case	7:case|10:case|12:case	_
+6	entre	entre	ADP	_	_	7	case	7:case	_
 7	Johnny	Johnny	PROPN	_	_	5	nmod	5:nmod:entre	_
 8	Hooker	Hooker	PROPN	_	_	7	flat:name	7:flat:name	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	10:punct	_
