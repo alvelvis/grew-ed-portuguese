@@ -331,7 +331,7 @@
 8	padrão	padrão	NOUN	_	Gender=Masc|Number=Sing	3	nmod	3:nmod:de	SpaceAfter=No
 9	,	,	PUNCT	_	_	3	punct	3:punct	_
 10	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	11:det	_
-11	lançamentos	lançamento	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	12:nsubj|23:nsubj	_
+11	lançamentos	lançamento	NOUN	_	Gender=Masc|Number=Plur	12	nsubj	12:nsubj	_
 12	caíram	cair	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 13	13,7	13,7	NUM	_	NumType=Card	14	nummod	14:nummod	SpaceAfter=No
 14	%	%	SYM	_	_	12	obj	12:obj	_
