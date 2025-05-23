@@ -1025,7 +1025,7 @@
 3	lugar	lugar	NOUN	_	Gender=Masc|Number=Sing	2	nsubj	2:nsubj	_
 4	em	em	ADP	_	_	5	case	5:case	_
 5	que	que	PRON	_	PronType=Rel	3	acl:relcl	3:acl:relcl	_
-6	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
+6	elas	ele	PRON	_	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj|14:nsubj	_
 7	não	não	ADV	_	_	5	advmod	5:advmod	_
 8	estejam	estar	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	_
 9	e	e	CCONJ	_	_	14	cc	14:cc	_
@@ -1529,7 +1529,7 @@
 # sent_id = FOLHA_DOC003191_SENT030
 # text = "Quem se exalta não deve desqualificar o trabalho de quem defende os direitos humanos", diz a ativista Braga, que quer começar um movimento para que crimes como calúnia possam ser denunciados on-line.
 1	"	"	PUNCT	_	_	6	punct	6:punct	SpaceAfter=No
-2	Quem	quem	PRON	_	PronType=Ind	6	nsubj	4:nsubj|6:nsubj|7:nsubj	_
+2	Quem	quem	PRON	_	PronType=Ind	6	nsubj	6:nsubj|7:nsubj	_
 3	se	se	PRON	_	Case=Nom|Person=3|PronType=Prs	4	expl	4:expl	_
 4	exalta	exaltar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 5	não	não	ADV	_	_	6	advmod	6:advmod	_
@@ -1538,7 +1538,7 @@
 8	o	o	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	9:det	_
 9	trabalho	trabalho	NOUN	_	Gender=Masc|Number=Sing	7	obj	7:obj	_
 10	de	de	ADP	_	_	11	case	11:case	_
-11	quem	quem	PRON	_	PronType=Ind	9	nmod	9:nmod:de|12:nsubj	_
+11	quem	quem	PRON	_	PronType=Ind	9	nmod	9:nmod:de	_
 12	defende	defender	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
 13	os	o	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	14:det	_
 14	direitos	direito	NOUN	_	Gender=Masc|Number=Plur	12	obj	12:obj	_
